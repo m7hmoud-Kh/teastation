@@ -18,11 +18,9 @@
 /* start the header*/
 .header
 {
-    background-image: url("img/head.jpg");
+    background-image: url("../img/head.jpg");
     background-size: cover;
     position: relative;
-     
-
 }
 
 .header .over-lay
@@ -34,20 +32,20 @@
     height: 100%;
     background-color:#000;
     opacity: 0.5;
-    
-    
+
+
 }
- 
+
 .header .cap
 {
     padding-top: 18%;
     z-index: 2;
     position: relative;
 
-    
-    
+
+
 }
-.header .cap .over 
+.header .cap .over
 {
     font-size: 40px;
 }
@@ -84,7 +82,7 @@
         padding-top: 10px;
         padding-bottom: 30px;
     }
-        
+
 }
 
 @media(min-width:769px)and (max-width:992px)
@@ -96,7 +94,7 @@
         padding-bottom: 170px;
     }
 }
-.header .cap .bord 
+.header .cap .bord
 {
     border: 4px solid #698f3f;
     height: 80px;
@@ -107,7 +105,7 @@
 }
 @media (max-width:768px)
 {
-    .header .cap .bord 
+    .header .cap .bord
     {
         position: absolute;
         left: 170px;
@@ -163,7 +161,7 @@
         left: 20px;
         cursor: pointer;
         z-index: 4;
-        
+
     }
 
 }
@@ -224,11 +222,11 @@
     position: absolute;
     left: 30px;
     top: 68px;
-    color: #698f3f;
+    color: #698f3f ;
     text-transform: uppercase;
     font-size: 20px;
     cursor: pointer;
-    
+
 
 }
 .menu .navgate .home,
@@ -240,6 +238,11 @@
 
 }
 
+.navgate a {
+    color:#698f3f;
+    text-decoration: none;
+}
+
 .menu .navgate .home:hover,
 .menu .navgate .skills:hover,
 .menu .navgate .about:hover,
@@ -248,7 +251,6 @@
     color:#000;
     transform: translateX(20px);
 
-
 }
 /*end the header*/
 /*start the iconsfeutser*/
@@ -256,15 +258,15 @@
 {
     background-color: #e5e5e5;
     border-top: 8px solid #b59927;
-    
-    
+
+
 }
 
 .sec2 .fetur
 {
     padding:30px 0;
     transition: all 0.45s ease-in-out;
-    
+
 }
 
 .sec2 .fetur:hover
@@ -276,7 +278,7 @@
     color:#fff
 }
 
-.sec2 .fetur i 
+.sec2 .fetur i
 {
     transition:all 0.45s ease-in-out;
 }
@@ -316,8 +318,8 @@
     background-color:#000;
     opacity: 0.7;
     border-radius: 10px;
-    
-    
+
+
 }
 .sec3 .image img
 {
@@ -329,13 +331,13 @@
     border: 7px solid #698f3f;
     cursor: pointer;
     transition: all 0.54s ease-in-out;
-    
-    
+
+
 
 }
 .sec3 .image img:hover
 {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 @media(max-width:768px)
@@ -496,7 +498,7 @@
 .sec4 h1
 {
     color:#698f3f;
-    
+
 
 }
 @media(min-width:769px)and (max-width:992px)
@@ -551,14 +553,14 @@
     transition: all 0.45s ease-in-out;
     text-transform: uppercase;
     z-index: 3;
-    
+
 }
 .sec4 .row .invent:hover
 {
     color:#fff;
     cursor: pointer;
     opacity: 0.7;
-    
+
 
 }
 @media(min-width:769px)and (max-width:992px)
@@ -657,9 +659,9 @@
 .sec5
 {
     background-color: #e5e5e5;
-    
+
 }
-.sec5 .exp 
+.sec5 .exp
 {
     text-align: center;
     color:#698f3f;
@@ -674,19 +676,19 @@
     }
 
 }
-.sec5 .ser 
+.sec5 .ser
 {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 40px;
     padding-bottom: 80px;
-    
+
 }
 
 @media(max-width:768px)
 {
-    .sec5 .ser 
+    .sec5 .ser
     {
         padding-bottom: 5px;
     }
@@ -708,7 +710,7 @@
 }
 @media(min-width:769px)and (max-width:992px)
 {
-    .last 
+    .last
     {
         margin-left: 183px ;
         padding: 15px 0px;
@@ -736,7 +738,7 @@
     border: 4px solid #fff;
     border-radius: 5px;
     transition: all 0.54s ease-in-out;
-   
+
 }
 .card:hover
 {
@@ -769,30 +771,30 @@
 {
     color:#fff;
     background-color: #698f3f;
-  
+
 }
 @media(max-width:768px)
 {
     .card button
     {
-        
+
         margin-left: 0%;
-      
+
     }
 }
 @media(min-width:769px)and (max-width:992px)
 {
-    .last button 
+    .last button
     {
-        
+
         margin-left: 0%;
-      
+
     }
 }
 
 /*end sec5 our services*/
 /*start sec6 */
-.sec6 .info 
+.sec6 .info
 {
     padding-top:100px;
     padding-bottom: 20px;
@@ -837,11 +839,11 @@
     .sec6 .message .mar,
     .sec6 .mobile  .mar
     {
-        
+
         color:#698f3f;
         font-size: 30px;
         text-transform: capitalize;
-      
+
     }
 }
 .sec6 .address div,
@@ -880,7 +882,7 @@
 
 }
 
-.sec6 form 
+.sec6 form
 {
     padding-top:100px;
     padding-bottom: 20px;
@@ -898,7 +900,7 @@
 .sec6 form  div
 {
     margin: 20px 0px;
-    
+
 }
 .sec6 form  div textarea
 {
